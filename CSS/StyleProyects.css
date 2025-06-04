@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: monospace;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	background-color: #1a1a1a;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 40px;
+	background-color: #1a1a1a;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.contenedor img{
+	width: 300px;
+	border-radius: 10px;
+}
+
+.project-info{
+	max-width: 500px;
+}
+
+.project-info h1{
+	font-size: 45px;
+}
+
+.project-info h3{
+	font-size: 35px;
+}
+
+.project-info p{
+	font-size: 15px;
+}
+
+.project-info ul{
+	list-style: none;
+	padding: 0;
+}
+
+.project-info ul li{
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.buttons{
+	margin-top: 30px;
+}
+
+.btn-live, .btn-code, .btn-back{
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-right: 10px;
+	transition: background-color 1s, color 1s;
+}
+
+.btn-live:hover, .btn-code:hover, .btn-back:hover{
+	background-color: white;
+	color: black;
+}
