@@ -2,6 +2,30 @@ body{
 	background-color: black;
 	color: white;
 	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 768px){
+	.nav{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.contenedor{
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	.project-info h1{
+		font-size: 30px;
+	}
+
+	.buttons{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
 }
 
 .nav{
@@ -14,6 +38,7 @@ body{
 
 .contenedor{
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
 	padding: 40px;
@@ -22,12 +47,13 @@ body{
 }
 
 .contenedor img{
-	width: 300px;
-	border-radius: 10px;
+	/*width: 300px;*/
+	max-width: 100%;
+	height: auto;
 }
 
 .project-info{
-	max-width: 500px;
+	max-width: 90%;
 }
 
 .project-info h1{
