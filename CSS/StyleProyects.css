@@ -38,6 +38,7 @@ body{
 
 .contenedor{
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
@@ -47,7 +48,7 @@ body{
 }
 
 .contenedor img{
-	/*width: 300px;*/
+	width: 100px;
 	max-width: 100%;
 	height: auto;
 }
